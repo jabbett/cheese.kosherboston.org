@@ -171,12 +171,13 @@
 							</div>
 							<div class="8u small">
                                 <form method="post" action="#">
+                                    <p class="form-error hide"></p>
                                     <div class="row half">
-                                        <div class="6u"><input type="text" class="text" placeholder="Name" /></div>
-                                        <div class="6u"><input type="text" class="text" placeholder="Email" /></div>
+                                        <div class="6u"><input type="text" class="text" id="name" placeholder="Name" /></div>
+                                        <div class="6u"><input type="text" class="text" id="email" placeholder="Email" /></div>
                                     </div>
                                     <div class="row half">
-                                        <div class="12u"><textarea name="message" placeholder="Message"></textarea></div>
+                                        <div class="12u"><textarea name="message" id="message" placeholder="Message"></textarea></div>
                                     </div>
                                     <div class="row">
                                         <div class="12u">
@@ -187,6 +188,10 @@
                                         </div>
                                     </div>
                                 </form>
+                                <div class="thank-you featured hide">
+                                    <span class="fa fa-heart"></span>
+                                    <h3>Thank you!</h3>
+                                </div>
 							</div>
 						</div>
 					</div>

@@ -1326,3 +1326,16 @@
 				{
 					box-shadow: inset 0 0 0 1px #d6d6d6;
 				}
+
+
+.hide {
+    display:none;
+}
+
+.form-error {
+    color:#dd0000;
+}
+
+.thank-you .fa {
+    font-size:4em;
+}
